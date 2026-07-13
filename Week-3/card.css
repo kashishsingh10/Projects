@@ -1,0 +1,46 @@
+body{
+    background-color:#e8f0ff;
+    font-family:Arial;
+}
+
+.card{
+    width:300px;
+    background-color:white;
+    margin:60px auto;
+    text-align:center;
+    border-radius:10px;
+    border:1px solid #ccc;
+    padding:20px;
+    box-shadow:0px 4px 10px lightgray;
+}
+
+.card img{
+    width:150px;
+    height:150px;
+}
+
+.card h2{
+    color:royalblue;
+    margin-top:15px;
+}
+
+.card p{
+    color:#555;
+    font-size:15px;
+    line-height:22px;
+}
+
+button{
+    width:150px;
+    height:40px;
+    background-color:royalblue;
+    color:white;
+    border:none;
+    border-radius:20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:navy;
+}

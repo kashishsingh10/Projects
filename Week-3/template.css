@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial;
+}
+
+/* Navbar */
+
+.navbar{
+    background:firebrick;
+    height:60px;
+    line-height:60px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+.navbar a{
+    float:right;
+    text-decoration:none;
+    color:white;
+    margin-right:30px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:blue;
+}
+
+/* Banner */
+
+.banner{
+    width:100%;
+    height:350px;
+    background-image:url("banner.jpeg");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    color:firebrick;
+    padding-top:120px;
+}
+
+.banner h1{
+    font-size:45px;
+}
+
+.banner p{
+    font-size:22px;
+    margin-top:15px;
+}
+
+/* Section */
+
+.section{
+    width:90%;
+    margin:50px auto;
+    overflow:hidden;
+}
+
+.left{
+    width:50%;
+    float:left;
+}
+
+.left h2{
+    margin-bottom:20px;
+}
+
+.left p{
+    line-height:28px;
+    margin-bottom:20px;
+}
+
+.left button{
+    background:salmon;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.left button:hover{
+    background:tomato;
+}
+
+.right{
+    width:45%;
+    float:right;
+    text-align:center;
+}
+
+.right img{
+    width:100%;
+    border-radius:10px;
+}
