@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3>Welcome {{ username }}</h3>
+
+<form method="POST">
+<input class="form-control mb-2" name="title" placeholder="Task Title">
+<textarea class="form-control mb-2" name="description" placeholder="Task Description"></textarea>
+<button class="btn btn-primary">Add Task</button>
+</form>
+
+<hr>
+
+<h4>Your Tasks</h4>
+
+{% for task in user_tasks %}
+<div class="card p-2 mb-2">
+<b>{{ task.title }}</b><br>
+{{ task.description }}
+</div>
+{% endfor %}
+
+{% endblock %}
